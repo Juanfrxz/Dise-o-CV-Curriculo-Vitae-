@@ -85,5 +85,24 @@ section{
 }
 
 .info{
-    padding: 50rem 7% 5rem;
+    padding: 50rem 7% 12rem;
+}
+.info1{
+    padding: 10rem 7% 12rem;
+}
+.info2{
+    padding: 10rem 7% 12rem;
+}
+
+.columna{
+    flex: 1;
+    margin: 06px;
+    background-color: rgb(194, 194, 187);
+    padding: 6px;
+    border-radius: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
 }
