@@ -5,14 +5,26 @@ body {
     padding: 20px;
 }
 
-.tabla1, .tabla2, .tabla3{
+.tabla1{
+    width: 33%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.tabla2{
+    width: 33%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.tabla3{
     width: 33%;
     border-collapse: separate;
     border-spacing: 10px;
 }
 
 td {
-    background-color: #d3d3d3;
+    background-color: #c9c7c7;
     padding: 20px;
     vertical-align: top;
     border-radius: 10px;
@@ -33,3 +45,47 @@ img {
 .titulo2{
     text-align: center;
 }
+
+.contac {
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #c9c7c7;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #505255;
+}
+
